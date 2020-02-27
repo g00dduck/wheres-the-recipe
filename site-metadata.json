@@ -1,10 +1,10 @@
 {
-  "title": "Stackbit Fresh Theme",
+  "title": "WTFITR",
   "layout_style": "overflow",
   "palette": "green",
   "header": {
-    "title": "Stackbit Fresh",
-    "tagline": "Header Tagline",
+    "title": "WHERE THE FUCK IS THE RECIPE",
+    "tagline": "A blog for recipes. Just... recipes.",
     "profile_img": "images/avatar.png",
     "bg": "dark",
     "has_nav": true,
