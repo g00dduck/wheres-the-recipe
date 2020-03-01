@@ -12,12 +12,12 @@ export default class Contact extends React.Component {
               <header className="post-header">
                 <h1 className="post-title underline">{_.get(this.props, 'pageContext.frontmatter.title')}</h1>
               </header>
-              {_.get(this.props, 'pageContext.frontmatter.subtitle') && 
+              {_.get(this.props, 'pageContext.frontmatter.subtitle') &&
               <div className="post-subtitle">
                 {htmlToReact(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
               </div>
               }
-              {_.get(this.props, 'pageContext.frontmatter.img_path') && 
+              {_.get(this.props, 'pageContext.frontmatter.img_path') &&
               <div className="post-thumbnail">
                 <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} />
               </div>
@@ -30,16 +30,16 @@ export default class Contact extends React.Component {
                     <label>Don't fill this out if you're human: <input name="bot-field" /></label>
                   </p>
                   <p className="form-row">
-                    <label className="form-label">Name *</label>
-                    <input type="text" name="name" placeholder="Your name..." className="form-input"/>
+                    <label className="form-label" htmlFor="contact_name">Name *</label>
+                    <input type="text" name="name" placeholder="Your name..." className="form-input" id="contact_name"/>
                   </p>
                   <p className="form-row">
-                    <label className="form-label">Email *</label>
-                    <input type="email" name="email" placeholder="Your email address..." className="form-input"/>
+                    <label className="form-label" htmlFor="contact_email">Email *</label>
+                    <input type="email" name="email" placeholder="Your email address..." className="form-input" id="contact_email"/>
                   </p>
                   <p className="form-row">
-                    <label className="form-label">Message *</label>
-                    <textarea name="message" placeholder="Your message..." className="form-textarea" rows="7" />
+                    <label className="form-label" htmlFor="contact_message">Message *</label>
+                    <textarea name="message" placeholder="Your message..." className="form-textarea" rows="7" id="contact_message"/>
                   </p>
                   <input type="hidden" name="form-name" value="contactForm" />
                   <p className="form-row">

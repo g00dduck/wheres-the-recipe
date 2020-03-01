@@ -1,10 +1,10 @@
 ---
-title: Contact
+title: Suggest a Recipe
 menus:
   main:
-    title: Contact
+    title: Suggest a Recipe
     weight: 5
 template: contact
 ---
 
-To get in touch fill the form below.
+Have a recipe that you love that's hosted on a blog you don't? Drop it as a suggestion below!
