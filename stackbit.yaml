@@ -291,9 +291,9 @@ models:
         description: Which menus should this page show up in
   blog:
     type: page
-    label: Blog
-    template: blog
-    file: blog/index.md
+    label: Recipes
+    template: recipe
+    file: recipe/index.md
     hideContent: true
     singleInstance: true
     fields:
@@ -304,7 +304,7 @@ models:
         required: true
       - type: page_menus
         name: menus
-        label: Blog Menus
+        label: Recipe Menus
         description: Which menus should this page show up in
   contact:
     type: page

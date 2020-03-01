@@ -352,12 +352,12 @@ collections:
             label: Template
             required: true
             default: home
-  - name: blog
-    label: Blog
+  - name: recipes
+    label: Recipe
     files:
-      - name: blog
-        label: Blog
-        file: src/pages/blog/index.md
+      - name: recipes
+        label: Recipe
+        file: src/pages/recipe/index.md
         fields:
           - widget: string
             name: title
@@ -366,7 +366,7 @@ collections:
             hint: The title of the page.
           - widget: object
             name: menus
-            label: Blog Menus
+            label: Recipe Menus
             required: false
             hint: Which menus should this page show up in
             fields:
@@ -398,7 +398,7 @@ collections:
             name: template
             label: Template
             required: true
-            default: blog
+            default: recipe
   - name: contact
     label: Contact
     files:

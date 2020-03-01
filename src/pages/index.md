@@ -19,7 +19,7 @@ sections:
 
       Whilst wading through rambling anecdotes, affiliate link disclaimers,
       autoplay videos and other assorted horseshit, I (and, I'm guessing, you)
-      often find myself exclaiming, "Where the fuck is the recipe?!" 
+      often find myself exclaiming, "Where the fuck is the recipe?!"
 
 
       So here they are: the recipes. Just the recipes.
@@ -27,8 +27,8 @@ sections:
     title: About
     type: contentblock
   - actions:
-      - label: View Blog
-        url: blog/index.html
+      - label: View Recipes
+        url: recipes/index.html
     component: PostsBlock
     num_posts_displayed: 4
     section_id: recent-posts

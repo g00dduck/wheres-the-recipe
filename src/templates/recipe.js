@@ -5,7 +5,7 @@ import moment from 'moment-strftime';
 import {Layout} from '../components/index';
 import {getPages, Link, safePrefix} from '../utils';
 
-export default class Blog extends React.Component {
+export default class Recipe extends React.Component {
     render() {
         let display_posts = _.orderBy(getPages(this.props.pageContext.pages, '/posts'), 'frontmatter.date', 'desc');
         return (
@@ -14,7 +14,7 @@ export default class Blog extends React.Component {
                 {_.map(display_posts, (post, post_idx) => (
                 <article key={post_idx} className="post">
                   <div className="post-inside">
-                    {_.get(post, 'frontmatter.thumb_img_path') && 
+                    {_.get(post, 'frontmatter.thumb_img_path') &&
                     <Link className="post-thumbnail" to={safePrefix(_.get(post, 'url'))}>
                       <img className="thumbnail" src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} />
                     </Link>
