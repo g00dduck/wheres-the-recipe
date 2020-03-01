@@ -1,7 +1,5 @@
 ---
-title: About Me
-subtitle: This is a short page about me and my work.
-img_path: images/about.jpg
+title: About
 menus:
   main:
     title: About
@@ -9,12 +7,21 @@ menus:
 template: page
 ---
 
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+## About the Site
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
+You'll hopefully notice a thing or two about this website that sets it apart from other food blogs--largely, that it's simple. Consistently so.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+Every recipe post will have the following:
 
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
+* A recipe title.
+* A short description of the recipe.
+* A link back to the original blog(s).
+* The recipe, broken into an ingredient list followed by instructions!
 
-*Thank You for reading!*
+Feel bad about not giving the orignial blogger that sweet sweet ad revenue? Not to worry! Click the link to the blog to give them their hits, then come on back to find where the fuck the recipe is.
+
+## About the Author
+
+Shinni is but a humble software engineer who also gets put in charge of dinner at home. Unfortunately for her spouse, she's not great in the kitchen on her own, and so often seeks the sage advice of food bloggers worldwide. She also just... can't stand most of their blogs, and often finds herself wishing that they would just. Post. The recipe.
+
+So she does it for them.
