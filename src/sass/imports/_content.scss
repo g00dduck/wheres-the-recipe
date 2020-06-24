@@ -135,6 +135,14 @@
     padding: 0 1.33333rem;
   }
 
+  .post-content label {
+      font-weight: normal;
+  }
+
+  .post-content table.ingredients td{
+      width: 50%;
+  }
+
   .post-meta {
     margin: 0;
     padding: 0 1.33333rem 1.33333rem;
