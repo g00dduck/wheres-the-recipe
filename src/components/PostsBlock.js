@@ -6,7 +6,7 @@ import {getPages, Link, safePrefix} from '../utils';
 
 export default class PostsBlock extends React.Component {
     render() {
-        let display_posts = _.orderBy(getPages(this.props.pageContext.pages, '/posts'), 'frontmatter.date', 'desc');
+        let display_posts = _.orderBy(getPages(this.props.pageContext.pages, '/recipes'), 'frontmatter.date', 'desc');
         let recent_posts = display_posts.slice(0, _.get(this.props, 'section.num_posts_displayed'));
         return (
             <section id={_.get(this.props, 'section.section_id')} className="block">
@@ -15,7 +15,7 @@ export default class PostsBlock extends React.Component {
                 {_.map(recent_posts, (post, post_idx) => (
                 <article key={post_idx} className="post">
                   <div className="post-inside">
-                    {_.get(post, 'frontmatter.thumb_img_path') && 
+                    {_.get(post, 'frontmatter.thumb_img_path') &&
                     <Link className="post-thumbnail" to={safePrefix(_.get(post, 'url'))}><img className="thumbnail"
                         src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} /></Link>
                     }
@@ -33,7 +33,7 @@ export default class PostsBlock extends React.Component {
                 </article>
                 ))}
               </div>
-              {_.get(this.props, 'section.actions') && 
+              {_.get(this.props, 'section.actions') &&
               <p className="block-cta">
                 {_.map(_.get(this.props, 'section.actions'), (action, action_idx) => (
                 <Link key={action_idx} to={safePrefix(_.get(action, 'url'))} className="button">{_.get(action, 'label')}</Link>

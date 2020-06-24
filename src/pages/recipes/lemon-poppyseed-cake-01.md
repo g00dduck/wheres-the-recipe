@@ -22,62 +22,62 @@ Servings | Time Investment | Calories Per Serving |
 ## Ingredients
 
 ### Cake
-<table>
+<table class="ingredients">
     <tr>
         <th>Dry Ingredients</th>
         <th>Wet Ingredients</th>
     </tr>
     <tr>
-        <td><input id="ingredient00" type="checkbox"/>&nbsp;<label for="ingredient00" style="font-weight: normal;">2.75 cup (352g) cake flour</label></td>
-        <td><input id="ingredient05" type="checkbox"/>&nbsp;<label for="ingredient05" style="font-weight: normal;">0.75 cup (170g) unsalted butter, at room temperature</label></td>
+        <td><input id="ingredient00" type="checkbox"/>&nbsp;<label for="ingredient00" >2.75 cup (352g) cake flour</label></td>
+        <td><input id="ingredient05" type="checkbox"/>&nbsp;<label for="ingredient05" >0.75 cup (170g) unsalted butter, at room temperature</label></td>
     </tr>
     <tr>
-        <td><input id="ingredient01" type="checkbox"/>&nbsp;<label for="ingredient01" style="font-weight: normal;">2 tsp baking powder</label></td>
-        <td><input id="ingredient12" type="checkbox"/>&nbsp;<label for="ingredient12" style="font-weight: normal;">1.3 cups (315ml) buttermilk</label></td>
+        <td><input id="ingredient01" type="checkbox"/>&nbsp;<label for="ingredient01" >2 tsp baking powder</label></td>
+        <td><input id="ingredient12" type="checkbox"/>&nbsp;<label for="ingredient12" >1.3 cups (315ml) buttermilk</label></td>
     </tr>
     <tr>
-        <td><input id="ingredient02" type="checkbox"/>&nbsp;<label for="ingredient02" style="font-weight: normal;">0.25 tsp baking soda</label></td>
-        <td><input id="ingredient09" type="checkbox"/>&nbsp;<label for="ingredient09" style="font-weight: normal;">4 large eggs</label></td>
+        <td><input id="ingredient02" type="checkbox"/>&nbsp;<label for="ingredient02" >0.25 tsp baking soda</label></td>
+        <td><input id="ingredient09" type="checkbox"/>&nbsp;<label for="ingredient09" >4 large eggs</label></td>
     </tr>
     <tr>
-        <td><input id="ingredient07" type="checkbox"/>&nbsp;<label for="ingredient07" style="font-weight: normal;">2 Tbsp fresh lemon zest (from about 4 lemons)</label></td>
-        <td><input id="ingredient13" type="checkbox"/>&nbsp;<label for="ingredient13" style="font-weight: normal;">2 Tbsp fresh lemon juice</label></td>
+        <td><input id="ingredient07" type="checkbox"/>&nbsp;<label for="ingredient07" >2 Tbsp fresh lemon zest (from about 4 lemons)</label></td>
+        <td><input id="ingredient13" type="checkbox"/>&nbsp;<label for="ingredient13" >2 Tbsp fresh lemon juice</label></td>
     </tr>
     <tr>
-        <td><input id="ingredient03" type="checkbox"/>&nbsp;<label for="ingredient03" style="font-weight: normal;">0.75 tsp salt</label></td>
-        <td><input id="ingredient11" type="checkbox"/>&nbsp;<label for="ingredient11" style="font-weight: normal;">0.5 tsp vanilla extract</label></td>
+        <td><input id="ingredient03" type="checkbox"/>&nbsp;<label for="ingredient03" >0.75 tsp salt</label></td>
+        <td><input id="ingredient11" type="checkbox"/>&nbsp;<label for="ingredient11" >0.5 tsp vanilla extract</label></td>
     </tr>
     <tr>
-        <td><input id="ingredient04" type="checkbox"/>&nbsp;<label for="ingredient04" style="font-weight: normal;">3.5 Tbsp (30g) poppy seeds</label></td>
-        <td><input id="ingredient08" type="checkbox"/>&nbsp;<label for="ingredient08" style="font-weight: normal;">0.25 cup (60ml) canola oil</label></td>
+        <td><input id="ingredient04" type="checkbox"/>&nbsp;<label for="ingredient04" >3.5 Tbsp (30g) poppy seeds</label></td>
+        <td><input id="ingredient08" type="checkbox"/>&nbsp;<label for="ingredient08" >0.25 cup (60ml) canola oil</label></td>
     </tr>
     <tr>
-        <td><input id="ingredient06" type="checkbox"/>&nbsp;<label for="ingredient06" style="font-weight: normal;">1.75 cup (366g) cane sugar</label></td>
-        <td><input id="ingredient10" type="checkbox"/>&nbsp;<label for="ingredient10" style="font-weight: normal;">1 tsp lemon extract</label></td>
+        <td><input id="ingredient06" type="checkbox"/>&nbsp;<label for="ingredient06" >1.75 cup (366g) cane sugar</label></td>
+        <td><input id="ingredient10" type="checkbox"/>&nbsp;<label for="ingredient10" >1 tsp lemon extract</label></td>
     </tr>
 </table>
 
 ### Simple Syrup
-<table>
+<table class="ingredients">
     <tr>
         <th>Dry Ingredients</th>
         <th>Wet Ingredients</th>
     </tr>
     <tr>
-        <td><input id="ingredient15" type="checkbox"/>&nbsp;<label for="ingredient15" style="font-weight: normal;">1.5 Tbsp cane sugar</label></td>
-        <td><input id="ingredient16" type="checkbox"/>&nbsp;<label for="ingredient16" style="font-weight: normal;">2 Tbsp fresh lemon juice</label></td>
+        <td><input id="ingredient15" type="checkbox"/>&nbsp;<label for="ingredient15" >1.5 Tbsp cane sugar</label></td>
+        <td><input id="ingredient16" type="checkbox"/>&nbsp;<label for="ingredient16" >2 Tbsp fresh lemon juice</label></td>
     </tr>
 </table>
 
 ### Cream Cheese Frosting
-<table>
+<table class="ingredients">
     <tr>
         <th>Dry Ingredients</th>
         <th>Wet Ingredients</th>
     </tr>
     <tr>
-        <td><input id="ingredient17" type="checkbox"/>&nbsp;<label for="ingredient17" style="font-weight: normal;">16 oz powdered sugar, sifted</label></td>
-        <td><input id="ingredient18" type="checkbox"/>&nbsp;<label for="ingredient18" style="font-weight: normal;">0.75 cup butter, room temp (0.25 salted, 0.5 unsalted)</label></td>
+        <td><input id="ingredient17" type="checkbox"/>&nbsp;<label for="ingredient17" >16 oz powdered sugar, sifted</label></td>
+        <td><input id="ingredient18" type="checkbox"/>&nbsp;<label for="ingredient18" >0.75 cup butter, room temp (0.25 salted, 0.5 unsalted)</label></td>
     </tr>
     <tr><td>&nbsp;</td>
         <td><input id="ingredient19" type="checkbox"/>&nbsp;<label for="ingredient19">8 oz cream cheese, room temp</label></td></tr>
@@ -107,7 +107,7 @@ Servings | Time Investment | Calories Per Serving |
 18. Transfer cakes to an airtight container to seal in moisture. Let cakes cool completely then frost with cream cheese frosting.
 
 ### Cream Cheese Frosting
-1. <b>Cream Cheese Frosting:</b> In the bowl of an electric stand mixer fitted with the paddle attachment, cream together butter and cream cheese until smooth.
+1. In the bowl of an electric stand mixer fitted with the paddle attachment, cream together butter and cream cheese until smooth.
 2. Add in vanilla extract and powdered sugar and mix until light and fluffy.
 3. Freeze in 3 minute increments as needed, stirring between increments until frosting is desired consistency.
 
